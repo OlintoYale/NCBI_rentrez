@@ -16,7 +16,7 @@ The NCBI uses a search syntax using entrez, (the R package is called Rentrez). E
 
 Searches can be make using one or several fields combined using logical operators, for example this script use the following search fields:
 #### base<-"HUMAN AND SARS-CoV-2 AND 25000:30000[SLEN] AND “geographic-location" AND COLLECTION_TIME"
-geographic location and sample collection dates must be submitted by the user
+- geographic location and sample collection dates must be submitted by the user
 
 
 
