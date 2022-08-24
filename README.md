@@ -15,7 +15,7 @@ rentrex.pdf info can be found here: https://cran.r-project.org/web/packages/rent
 The NCBI uses a search syntax using entrez, (the R package is called Rentrez). Entrez is a molecular biology database system that provides integrated access to nucleotide & protein sequence data, gene-centered and genomic mapping information.
 
 Searches can be make using one or several fields combined using logical operators, for example this script use the following search fields:
-### base<-HUMAN AND SARS-CoV-2 AND 25000:3000[SLEN] AND “geographic-location" AND COLLECTION_TIME"
+#### base<-"HUMAN AND SARS-CoV-2 AND 25000:3000[SLEN] AND “geographic-location" AND COLLECTION_TIME"
 geographic location and sample collection dates must be submitted by the user
 
 
