@@ -1,9 +1,24 @@
 # NCBI_rentrez
 
-A series of scripts to donwload/load fasta sequences from/to NCBI
 
+##  GenBank_rentrez_window.R
+Usage: R script to donwload SARS-CoV-2 fasta sequences from NCBI/nuccore DB using rentrez. This script download fasta sequences for a specific time window, and a specific location (USA/Satate) defined by the user. 
+
+The user MUST submmit three arguments: (1): to (initial time), (2) tf (final time), (3) Geographic location where the fasta sequences were submitted
+
+i.e: 
+### Rscript GenBank_rentrez_window.R 220608 220820 TX
+
+
+will donwload the SARS-CoV-2 fasta sequences with sample collection date within 22-06-08 and 22-08-20 submmited by the USA-state of Texas
+
+
+## A series of scripts in  R,Py,bash to donwload/load fasta sequences from/to NCBI
 
 Search the NCBI databases using rentrez (R)
+
+A series of scripts to donwload/load fasta sequences from/to NCBI
+
 
 
 #' Search a given NCBI database with a particular query.
