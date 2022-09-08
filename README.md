@@ -22,8 +22,8 @@ Searches can be make using one or several fields combined using logical operator
 
 ### RCovidSummary.R
 
-This script shold be run after the analytics phase and the pangolin-lineage are completed. The script summaryzes the run and generated two files: RCovidseq_summary and RunParameters, that will be stored at the runpath/Rsumcovidseq folder. 
+This script shold be run after the analytics phase and the pangolin-lineage are completed. The script summaryzes the run and generated two files: RunParameters and RCovidseq_summary, that will be stored at the runpath/Rsumcovidseq folder. 
 
-RunParameters: Is the collection of run static parameters: Wetlab assay, instrument type, software, pangolin version, Read Type, Number of Samples, number of Lanes, Chemistry , index adapters and the date of the run.
+RunParameters: Is the collection of the run static parameters: Wetlab assay, instrument type, software, pangolin version, Read Type, Number of Samples, number of Lanes, Chemistry , index adapters and the date of the run.
 
-Rcovidseq-summary: Is the collecton of the dynamic variables  such as: sample_IDs, lineage, scorpion_call, num_actg, num_n, pass/fail.
+Rcovidseq-summary: Is the collecton of the dynamic variables: sample_IDs, lineage, scorpion_call, num_actg, num_n, pass/fail.
