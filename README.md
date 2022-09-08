@@ -26,4 +26,4 @@ This script shold be run after the analytics phase and the pangolin-lineage are 
 
 RunParameters: Is the collection of the run static parameters: Wetlab assay, instrument type, software, pangolin version, Read Type, Number of Samples, number of Lanes, Chemistry , index adapters and the date of the run.
 
-Rcovidseq-summary: Is the collecton of the dynamic variables: sample_IDs, lineage, scorpion_call, num_actg, num_n, pass/fail.
+Rcovidseq_summary: Is the collecton of the dynamic variables: sample_IDs, lineage, scorpion_call, num_actg, num_n, pass/fail.
