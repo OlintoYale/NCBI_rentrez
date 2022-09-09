@@ -8,7 +8,7 @@ This script download fasta sequences for a specific time window, and for  a spec
 The user MUST submmit three arguments: (1): initial time (ie. 220608), (2): final time ( i.e.: 220820), (3) Geographic location where the fasta sequences were submitted, (i.e: TX)
 
 
-i.e: Rscript GenBank_rentrez_window.R  220608  220820  TX
+i.e: Rscript GenBank_rentrez_window.R  220608  220820  TX, 
 Using these arguments, the SARS-CoV-2 fasta sequences downloaded will be from the state of TX and with sample collection date within 22-06-08 and 22-06-20
 Rentrex.pdf info can be found here: https://cran.r-project.org/web/packages/rentrez/rentrez.pdf
 
