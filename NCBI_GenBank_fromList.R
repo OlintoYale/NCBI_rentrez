@@ -1,7 +1,8 @@
 #/usr/bin/env Rscript
 # Author: JLinares/08/2022
 #       Usage: Getting fasta sequences from NCBI/GenBank/nuccore from an ID list
-#       Parameters: the Ids list. ie: Rscript GenBank_fastas_from_list GenBank_IDS.csv
+#       Parameters: the Ids list. ie: Rscript NCBI_GenBank_fromlist.R ListIDS.csv
+
 library("easypackages");libraries("ape","rentrez","stringr","tidyverse")
 suppressMessages(libraries(c("lubridate","seqinr")))
 options(timeout = 700, "width"=400)
