@@ -25,7 +25,7 @@ Usage: R script to download fasta sequences listed in a list from NCBI/nuccore D
        
 ie: Rscript GenBank_fastas_fromList.R list.CSV
 
-List.CVS must contain a header and the list of GenBank IDs
+List.CVS must contain a header and the GenBank IDs
 
 
 
