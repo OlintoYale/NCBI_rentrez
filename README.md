@@ -21,7 +21,7 @@ Searches can be make using one or several fields combined using logical operator
 
 ##  GenBank_fastas_fromList.R
 Usage: R script to download fasta sequences listed in a list from NCBI/nuccore DB using Rentrez from the command line.
-       Any number of fastas can be download at one. List.CVS must contain a header and the list of GenBank IDs
+       Any number of fastas can be download at one. 
        
 ie: Rscript GenBank_fastas_fromList.R list.CSV
 
